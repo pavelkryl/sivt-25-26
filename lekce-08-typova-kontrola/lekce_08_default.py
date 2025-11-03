@@ -33,14 +33,14 @@ def nacti_vsechny_produkty() -> list[Produkt]:
         Produkt("Činky 2kg", 599, "sport"),
     ]
 
-def vyber_produkty(produkty: list[Produkt], min_cena: float, kategorie: str | None) -> list[Produkt]:
+def vyber_produkty(produkty: list[Produkt], min_cena: float, kategorie: str | None = None) -> list[Produkt]:
     return [p for p in produkty if p.cena >= min_cena and (p.kategorie == kategorie or kategorie == None)]
 
 
 # Ukázky použití:
 seznam_produktu = nacti_vsechny_produkty()
 print("Všechny produkty nad 500 Kč:")
-for p in vyber_produkty(seznam_produktu, 500, None):
+for p in vyber_produkty(seznam_produktu, 500):
     print(f"  {p.nazev}: {p.cena} Kč ({p.kategorie})")
 
 print("\nElektronika nad 1000 Kč:")
