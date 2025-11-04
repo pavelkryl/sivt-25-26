@@ -14,4 +14,15 @@ Témata:
 - None argument pro univerzálnější použití funkce
 - @dataclass místo tuple
 
-**odkazy**: výsledný [kód](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-07-typova-kontrola/lekce_07_vysledek.py)
+**odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-07-typova-kontrola)
+
+
+## Lekce 08 - Default hodnoty argumentů, Enum, Mapa/Slovník
+
+Témata:
+- volitelné argumenty funkcí (s defaultními hodnotami) [zde](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-08-typova-kontrola/lekce_08_default.py)
+- alternativní zápis `typ | None` ~ `Optional[typ]`
+- omezení množiny hodnot pomocí `Enum` [zde](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-08-typova-kontrola/lekce_08_enum.py)
+- mapa/slovník, iterace přes mapu
+
+**odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-08-typova-kontrola)
