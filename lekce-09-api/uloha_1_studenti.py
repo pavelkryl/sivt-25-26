@@ -39,4 +39,7 @@ STUDENTI = [
 ]
 
 def seznam_studentu_jako_mapa():
-    ...
+    m : dict[str, Student] = {}
+    for student in STUDENTI:
+        m[student.jmeno] = student
+    return m
