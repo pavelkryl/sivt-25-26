@@ -27,7 +27,7 @@ Témata:
 
 **odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-08-typova-kontrola)
 
-## Lekce 09 - Mapa, 
+## Lekce 09 - Mapa, API
 
 Témata:
 - výraz versus příkaz:
