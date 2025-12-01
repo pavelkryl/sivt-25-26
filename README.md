@@ -26,3 +26,15 @@ Témata:
 - mapa/slovník, iterace přes mapu
 
 **odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-08-typova-kontrola)
+
+## Lekce 09 - Mapa, 
+
+Témata:
+- výraz versus příkaz:
+  - if jako výraz: ala ternární operátor
+  - if jako příkaz
+- mapa: přehled metod pro práci s mapou, zápisy typů
+- API: úvod
+- poznámka: trochu jsme přestřelili, je potřeba zmírnit tempo a nejdřív datově modelovat
+
+**odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-09-api)
