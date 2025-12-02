@@ -38,3 +38,14 @@ Témata:
 - poznámka: trochu jsme přestřelili, je potřeba zmírnit tempo a nejdřív datově modelovat
 
 **odkazy**: [adresář lekce](https://github.com/pavelkryl/sivt-25-26/tree/main/lekce-09-api)
+
+## Lekce 10 - Bioinformatika
+
+Jan Kotrs
+
+## Lekce 11 - Git, úvod
+
+Učíme se git:
+- základní terminologie
+- prohlížíme repo: z webu, z příkazové řádky
+- připravujeme se na commit
