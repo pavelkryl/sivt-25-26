@@ -4,6 +4,9 @@ Učíme se:
 - základní práci s příkazovou řádkou
 - pracovat s gitem
 - jak psát čistý kód
+- práce s GitHub copilot
+
+![GitHub copilot](https://github.blog/wp-content/uploads/2025/09/cli.jpg?w=1536)
 
 ## Lekce 07 - Typová kontrola, Komplexní datové typy
 
