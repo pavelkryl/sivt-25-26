@@ -23,7 +23,7 @@ nastavujeme prokazování identity (login) skrz SSH (asymetrická kryptografie)
 
 - do `Key` vložte **obsah** souboru `~/.ssh/id_ed25519.pub` (obsah vypište třeba příkazem `cat`)
 - pak kliněte na `Add SSH key` tlačítko
-- tím jste dali githubu vědět svů veřený klíč
+- tím jste dali githubu vědět svůj veřený klíč
 
 ## První použití
 
@@ -37,3 +37,4 @@ git clone git@github.com:pavelkryl/moje-prvni-repo.git
 - po od-Enterování příkazu `git clone` se bude chtít prokázat vaše identita pomocí použití privátního klíče
 - vyskočí na vás dialogové okno operačního systému pro zadání hesla k privátnímu klíči
 - musíte napsat heslo a můžete zaškrtnout volbu, že se vás příště nemá ptát, že si má heslo zapamatovat (doporučuji zaškrtnout)
+
