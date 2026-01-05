@@ -62,9 +62,10 @@ Učíme se git:
 - commit
 - pull, push
 - vlastní repo
-- autentikace (privátní/veřejný klíč)
+- [autentikace](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-12-git/github_setup.md) (privátní/veřejný klíč)
 
 ## Lekce 13 - test Git, markdown
 
-- píěeme test na Git
+- píšeme test na Git
 - představení značkovacího jazyku Markdown, syntaxe
+- úkol: označkování [textu](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-13-markdown/oznackovat.txt)
