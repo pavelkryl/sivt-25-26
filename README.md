@@ -54,3 +54,17 @@ Učíme se git:
 - základní terminologie
 - prohlížíme repo: z webu, z příkazové řádky
 - připravujeme se na commit
+
+## Lekce 12 - Git
+
+- diff, status
+- add, staging area
+- commit
+- pull, push
+- vlastní repo
+- autentikace (privátní/veřejný klíč)
+
+## Lekce 13 - test Git, markdown
+
+- píěeme test na Git
+- představení značkovacího jazyku Markdown, syntaxe
