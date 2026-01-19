@@ -69,3 +69,22 @@ Učíme se git:
 - píšeme test na Git
 - představení značkovacího jazyku Markdown, syntaxe
 - úkol: označkování [textu](https://github.com/pavelkryl/sivt-25-26/blob/main/lekce-13-markdown/oznackovat.txt)
+
+## Lekce 14 - datové modelování
+
+- ujasňujeme si:
+  - entita
+  - kompozice
+  - asociace/relace
+  - kardinalita
+  - volitelnost/povinnost
+ 
+
+## Lekce 15
+
+- dataclasses: proč nelze psát defaultní hodnota seznamu rovnou `[]`
+- práce s pamětí v pythonu (proměnná je **jen** ukazatel, hodnota žije jinde)
+- lambda funkce
+- lambda funkce jako factory pro defaultní hodnotu
+
+  
