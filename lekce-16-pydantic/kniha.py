@@ -19,7 +19,7 @@ class Kniha(BaseModel):
     kapitoly: list[str] = []
 
 
-k2: Kniha = Kniha(
+kniha_1984: Kniha = Kniha(
     nazev="1984",
     isbn="978-80-98765-43-2",
     strany=328,
@@ -34,18 +34,21 @@ k2: Kniha = Kniha(
     datum_vydani=datetime(1949, 6, 8)
 )
 
-#k2.kapitoly.append("Velký bratr")
+kniha_1984.kapitoly.append("Velký bratr")
 
-# txt_json = k2.model_dump_json(indent=4)
-# print(txt_json)
+# ulozeni do souboru jako JSON
+txt_json = kniha_1984.model_dump_json(indent=4)
 
+soubor = open("kniha.json", "w")
+soubor.write(txt_json)
+soubor.close()
 
-# soubor = open("kniha.json", "w")
-# soubor.write(txt_json)
-# soubor.close()
-
-
+# nacteni ze souboru v JSON
 with open("kniha.json", "r") as soubor:
     txt_json = soubor.read()
-    k3 = Kniha.model_validate_json(txt_json)
-    print(k3)
+
+# uz soubor nepotrebujeme, je zavreny, ale text z nej mame v txt_json
+kniha_1984_loaded = Kniha.model_validate_json(txt_json)
+
+# vytiskneme objektovou reprezentaci
+print(kniha_1984_loaded)
