@@ -4,9 +4,9 @@ Tento repozitář obsahuje ukázky kódu z lekce 19 o modulárním programován�
 
 ## Shrnutí naučené látky
 
-- je to modul
-- stavovost/bezestavovost
+- modul
 - API
+- stavovost (stateful)/bezestavovost (stateless)
 
 ## Jednotlivé úlohy a jejich komentáře
 
