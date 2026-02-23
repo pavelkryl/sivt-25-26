@@ -110,3 +110,13 @@ Učíme se git:
 - modul
 - API
 - stav modulu, bezestavovost
+
+## Lekce 20
+
+- matematické modelování: teorie
+- model:
+  - parametry
+  - vzorec/šablona
+  - exekuce/inference
+- lineární regrese v Google sheets
+- příště zkusíme rozpoznávání SPZ
