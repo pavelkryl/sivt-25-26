@@ -1,7 +1,5 @@
 # Seminář z programování AG, školní rok 25/26
 
-druha veta
-
 Učíme se:
 - základní práci s příkazovou řádkou
 - pracovat s gitem
