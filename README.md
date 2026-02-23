@@ -79,7 +79,6 @@ Učíme se git:
   - kardinalita
   - volitelnost/povinnost
  
-
 ## Lekce 15
 
 - dataclasses: proč nelze psát defaultní hodnota seznamu rovnou `[]`
@@ -87,4 +86,27 @@ Učíme se git:
 - lambda funkce
 - lambda funkce jako factory pro defaultní hodnotu
 
-  
+## Lekce 16
+
+- pydantic
+- dataclass na steroidech
+- reprezentace
+- JSON ukládání/načítání
+- práce se soubory
+   
+## Lekce 17
+
+- datové modelování, procvičování
+- https://github.com/pavelkryl/sivt-25-26-test-nacvik1
+- https://github.com/pavelkryl/svit-25-26-test-nacvik2
+
+## Lekce 18
+
+- test
+
+## Lekce 19
+
+- modulární programování
+- modul
+- API
+- stav modulu, bezestavovost
