@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from typing import Tuple
 
 
 class StudentRegistr(ABC):
@@ -15,7 +16,7 @@ class StudentRegistr(ABC):
         ...
 
     @abstractmethod
-    def najdi_studenta(self, student_id: int) -> dict | None:
+    def najdi_studenta(self, student_id: int) -> Tuple[int,str] | None:
         """Vrátí slovník s údaji o studentovi, nebo None pokud neexistuje."""
         ...
 
@@ -25,6 +26,6 @@ class StudentRegistr(ABC):
         ...
 
     @abstractmethod
-    def vsichni_studenti(self) -> list[dict]:
-        """Vrátí seznam všech studentů seřazený podle jména."""
+    def vsichni_studenti(self) -> dict[int,str]:
+        """Vrátí seznam všech studentů."""
         ...
