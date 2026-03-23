@@ -1,6 +1,11 @@
 from abc import ABC, abstractmethod
-from typing import Tuple
 
+from pydantic import BaseModel
+
+class Student(BaseModel):
+    id: int
+    jmeno: str
+    vek: int
 
 class StudentRegistr(ABC):
     """Kontrakt pro správu studentů ve třídě."""
@@ -16,8 +21,8 @@ class StudentRegistr(ABC):
         ...
 
     @abstractmethod
-    def najdi_studenta(self, student_id: int) -> Tuple[int,str] | None:
-        """Vrátí slovník s údaji o studentovi, nebo None pokud neexistuje."""
+    def najdi_studenta(self, student_id: int) -> Student | None:
+        """Vrátí údaje o studentovi, nebo None pokud neexistuje."""
         ...
 
     @abstractmethod
@@ -26,6 +31,6 @@ class StudentRegistr(ABC):
         ...
 
     @abstractmethod
-    def vsichni_studenti(self) -> dict[int,str]:
+    def vsichni_studenti(self) -> list[Student]:
         """Vrátí seznam všech studentů."""
         ...
