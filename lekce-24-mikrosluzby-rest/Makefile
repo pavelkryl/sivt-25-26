@@ -14,7 +14,7 @@ prepare:
 	$(PIP) install -r requirements.txt
 
 run:
-	$(UVICORN) rest_api:app --reload
+	$(UVICORN) --host 0.0.0.0 rest_api:app --reload
 
 run-obj:
-	$(UVICORN) obj_rest_api:app --reload
+	$(UVICORN) --host 0.0.0.0 obj_rest_api:app --reload
