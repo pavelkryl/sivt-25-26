@@ -26,6 +26,5 @@ class Turniket(ATurniket):
     def pridej_skipas(self, zakoupeny_skipas_rfid: str) -> None:
         self._platne_skipasy.append(zakoupeny_skipas_rfid)
 
-    # tohle je se stava nadbytecne, ale nechavam to zde
     def log_vstupu(self) -> list[Pristup]:
         return self._log_pristupu
